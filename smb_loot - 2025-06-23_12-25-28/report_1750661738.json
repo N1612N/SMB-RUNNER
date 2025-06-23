@@ -1,0 +1,37 @@
+[
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt",
+        "Username",
+        "username: admin"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt",
+        "Password",
+        "password: Admin@1234"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt",
+        "AWS_SECRET",
+        "aws_secret_access_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/creds.txt",
+        "Username",
+        "testuser: testpass123"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/network_info.txt",
+        "Username",
+        "User: john.doe"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/ntlm_hashes.txt",
+        "NTLM Hash",
+        "aad3b435b51404eeaad3b435b51404ee:25d55ad283aa400af464c76d713c07ad"
+    ],
+    [
+        "smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/vault.env",
+        "Token",
+        "TOKEN=eyBcIHRva2VuX2hhc2hcIHRlc3QK"
+    ]
+]

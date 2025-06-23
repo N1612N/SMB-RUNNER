@@ -1,0 +1,21 @@
+[Username] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt:
+username: admin
+----------------------------------------
+[Password] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt:
+password: Admin@1234
+----------------------------------------
+[AWS_SECRET] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/credentials.txt:
+aws_secret_access_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+----------------------------------------
+[Username] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/creds.txt:
+testuser: testpass123
+----------------------------------------
+[Username] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/network_info.txt:
+User: john.doe
+----------------------------------------
+[NTLM Hash] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/ntlm_hashes.txt:
+aad3b435b51404eeaad3b435b51404ee:25d55ad283aa400af464c76d713c07ad
+----------------------------------------
+[Token] in smb_loot - 2025-06-23_12-25-28/smbshare_192.168.2.136/vault.env:
+TOKEN=eyBcIHRva2VuX2hhc2hcIHRlc3QK
+----------------------------------------

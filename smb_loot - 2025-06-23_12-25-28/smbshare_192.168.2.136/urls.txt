@@ -1,0 +1,2 @@
+https://internal.example.com/admin
+http://test.example.net/login
