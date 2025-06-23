@@ -140,7 +140,7 @@ Host: 192.168.2.136
 ```
 
 ![Report JSON](Attachments/Pasted%20image%2020250619011008.png)
-![Final Summary](attachments/Pasted%20image%2020250619011148.png)
+![Final Summary](Attachments/Pasted%20image%2020250619011148.png)
 
 ---
 ---
