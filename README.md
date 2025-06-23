@@ -42,10 +42,10 @@ python3 -m pip install pysmb --break-system-packages
 #### Platform - Attacker Machine
 
 Windows as attacker machine
-![Windows](attachments/Pasted%20image%2020250619011449.png)
+![Windows](Attachments/Pasted%20image%2020250619011449.png)
 
 Linux as attacker machine
-![Linux](attachments/Pasted%20image%2020250619011607.png)
+![Linux](Attachments/Pasted%20image%2020250619011607.png)
 
 ---
 #### MENU OPTIONS
@@ -63,7 +63,7 @@ Linux as attacker machine
 Select option [Default=0]:
 ```
 
-![Menu](attachments/Pasted%20image%2020250619005037.png)
+![Menu](Attachments/Pasted%20image%2020250619005037.png)
 #### 0 - SMB Auto Enumeration
 ```powershell
 Select option [Default=0]:
@@ -83,8 +83,8 @@ Select option [Default=0]:
 [+] Downloaded: private_key.pem
 [+] Downloaded: creds.txt
 ```
-![Enum](attachments/Pasted%20image%2020250619005104.png)
-![Enum 2](attachments/Pasted%20image%2020250619005127.png)
+![Enum](Attachments/Pasted%20image%2020250619005104.png)
+![Enum 2](Attachments/Pasted%20image%2020250619005127.png)
 
 #### 2 - Sensitive Data Extraction
 ```powershell
@@ -97,7 +97,7 @@ Select option [Default=0]:
 ... smb_loot - 2025-06-18_23-58-39\smbshare_192.168.2.136\ntlm_hashes.txt ==> [NTLM Hash] aad3b435b51404eeaad3b435b51404ee:25d55ad283aa400af464c76d713c07ad
 ... smb_loot - 2025-06-18_23-58-39\smbshare_192.168.2.136\vault.env ==> [Token] TOKEN=eyBcIHRva2VuX2hhc2hcIHRlc3QK
 ```
-![Sensitive Data](attachments/Pasted%20image%2020250619005156.png)
+![Sensitive Data](Attachments/Pasted%20image%2020250619005156.png)
 
 #### 3 - Report Generation
 ```powershell
@@ -106,7 +106,7 @@ smb_loot - 2025-06-18_23-58-39\report_1750272335.txt,
 smb_loot - 2025-06-18_23-58-39\report_1750272335.json,
 smb_loot - 2025-06-18_23-58-39\report_1750272335.html
 ```
-![Report](attachments/Pasted%20image%2020250619005220.png)
+![Report](Attachments/Pasted%20image%2020250619005220.png)
 
 #### 4 - Activity Summary 
 ```powershell
@@ -119,11 +119,11 @@ Host: 192.168.2.136
 
 [*] Script finished. Exiting...
 ```
-![Summary](attachments/Pasted%20image%2020250619005236.png)
+![Summary](Attachments/Pasted%20image%2020250619005236.png)
 
 ---
 #### Contents in the Dump
-![Dump](attachments/Pasted%20image%2020250619010752.png)
+![Dump](Attachments/Pasted%20image%2020250619010752.png)
 
 ---
 #### Reports Generated
@@ -139,7 +139,7 @@ Host: 192.168.2.136
 ]         
 ```
 
-![Report JSON](attachments/Pasted%20image%2020250619011008.png)
+![Report JSON](Attachments/Pasted%20image%2020250619011008.png)
 ![Final Summary](attachments/Pasted%20image%2020250619011148.png)
 
 ---
