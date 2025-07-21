@@ -10,7 +10,6 @@ from ipaddress import ip_network, IPv4Address
 from pathlib import Path
 from html import escape
 
-# Load environment variables from .env file
 try:
     from dotenv import load_dotenv
 except ImportError:
@@ -35,7 +34,7 @@ Author: Sanalnadh M Kattungal
 Envestnet - Offensive Security [RED TEAM]
 """)
 
-# Check platform and module dependencies
+
 print("[*] Platform: ", platform.system())
 try:
     from smb.SMBConnection import SMBConnection
@@ -49,7 +48,7 @@ except ImportError:
         os.system("python3 -m pip install pysmb --break-system-packages")
     from smb.SMBConnection import SMBConnection
 
-# Load credentials from environment
+
 SMB_USER = os.getenv("SMB_USER", "")
 SMB_PASS = os.getenv("SMB_PASS", "")
 SMB_DOMAIN = os.getenv("SMB_DOMAIN", "")
