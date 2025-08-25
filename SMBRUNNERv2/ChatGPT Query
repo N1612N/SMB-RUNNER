@@ -1,0 +1,80 @@
+Generate a Python script named SMBRUNNERv2.py based on my previous SMBRUNNER script with the following requirements:
+
+General Setup
+
+Print ASCII art (reuse from SMBRUNNER).
+
+Print author info and environment details.
+
+Detect platform (Windows/Linux).
+
+Check all dependencies (pysmb, dotenv).
+
+Print status if script ready.
+
+Check if SMB credentials are configured in env vars or a config file. Print username if available, else warn and proceed with anonymous access.
+
+Menu System
+
+Display the following menu:
+
+0: Automatic Scanning
+1: Target Network or IP Address
+2: Enumerate Live Hosts
+3: Enumerate Open Ports
+4: Sensitive Information Scan
+5: Generate Report
+6: Display Summary
+7: Clear Cache
+9: Exit
+
+
+Input validation with error messages.
+
+If no input within 5 seconds, auto-run Option 0.
+
+Features
+
+Option 0 (Auto Scan): Detect subnet → ping scan → port scan → SMB enum → download → regex scan → generate report → summary → exit.
+
+Option 1 (Target Subnet/IP):
+
+Accepts CIDR formats (/24, /16, etc.) and single IPs (like 10.152.10.15/24).
+
+Validate input (exit after 3 invalid attempts).
+
+Ping scan (skip if single IP).
+
+Port scan.
+
+SMB enum with creds or anonymous.
+
+Download to loot folder with unique timestamp.
+
+Regex scan → report → summary → exit.
+
+Option 2: Ping scan only, display live hosts.
+
+Option 3: Ping scan + port scan, display results.
+
+Option 4: Scan sensitive info from existing loot folders. Let user pick folder. Ask if they want a report.
+
+Option 5: Ask report format (txt/json/html), then generate. Generate all format if no input
+
+Option 6: Display formatted summary (hosts, ports, secrets by category).
+
+Option 7: Clear cached data (live hosts + ports).
+
+Option 9: Exit cleanly.
+
+Extra Details
+
+Regex patterns: reuse from original SMBRUNNER.
+
+ASCII art: reuse from SMBRUNNER.
+
+Reports: save in loot directory with timestamp.
+
+Caching: save discovered hosts/ports in memory for 1 week, reuse if same target.
+
+Dependencies should be minimal. Must run cleanly on both Windows and Linux without bugs.
